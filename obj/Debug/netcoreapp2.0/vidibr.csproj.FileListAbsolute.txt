@@ -1,0 +1,10 @@
+/home/vitormyra/www/vidibr/bin/Debug/netcoreapp2.0/vidibr.deps.json
+/home/vitormyra/www/vidibr/bin/Debug/netcoreapp2.0/vidibr.runtimeconfig.json
+/home/vitormyra/www/vidibr/bin/Debug/netcoreapp2.0/vidibr.runtimeconfig.dev.json
+/home/vitormyra/www/vidibr/bin/Debug/netcoreapp2.0/vidibr.dll
+/home/vitormyra/www/vidibr/bin/Debug/netcoreapp2.0/vidibr.pdb
+/home/vitormyra/www/vidibr/obj/Debug/netcoreapp2.0/vidibr.csproj.CoreCompileInputs.cache
+/home/vitormyra/www/vidibr/obj/Debug/netcoreapp2.0/vidibr.AssemblyInfoInputs.cache
+/home/vitormyra/www/vidibr/obj/Debug/netcoreapp2.0/vidibr.AssemblyInfo.cs
+/home/vitormyra/www/vidibr/obj/Debug/netcoreapp2.0/vidibr.dll
+/home/vitormyra/www/vidibr/obj/Debug/netcoreapp2.0/vidibr.pdb

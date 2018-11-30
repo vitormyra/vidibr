@@ -1,0 +1,39 @@
+@model IEnumerable<vidibr.Models.Cliente>
+
+<div class="panel-body">
+    <div class="btn-group">
+        <a asp-action="Criar" class="btn btn-primary">
+            <i class="glyphicon glyphicon-plus"></i> Adicionar Cliente
+        </a>
+    </div>
+
+    <br /><br />
+
+    <table class="table table-bordered table-striped table-condensed">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Idade)</td>
+                    <td>
+                        <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-info">
+                            <i class="glyphicon glyphicon-pencil"></i> Editar
+                        </a>
+                        <a asp-action="Apagar" asp-route-id="@item.Id" class="btn btn-danger" onclick ="return confirm('Você tem certeza que deseja excluir esse cliente?');">  >
+                            <i class="glyphicon glyphicon-trash"></i> Apagar
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

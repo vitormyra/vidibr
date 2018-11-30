@@ -1,0 +1,24 @@
+@model vidibr.Models.Cliente
+
+<br /><br />
+<form asp-action="Criar" method="POST">
+    <div class="form-horizontal">
+        <div class="row">
+            <div class="form-group">
+                <label asp-for="Nome" class="col-lg-2 col-sm-3 control-label"></label>
+                <div class="col-lg-3">
+                    <input asp-for="Nome" class="form-control" />
+                    <span asp-validator-for = "Nome" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Idade" class="col-lg-2 col-sm-3 control-label"></label>
+                <div class="col-lg-3">
+                    <input asp-for="Idade" class="form-control" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <input type="submit" value="Salvar" class="col-lg-2 col-md-offset-2 btn btn-success" /> <br />
+</form>
